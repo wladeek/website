@@ -7,3 +7,88 @@ body {
 
 	background: #111 url("../img/index-background.jpg") no-repeat center top;
 }
+.main-header{
+	margin-bottom: 60px;
+	min-height: 70px;
+}
+.container{
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.main-navigation{
+	min-height: 70px;
+	width: 780px;
+	float:left;
+}
+.user-block{
+	width: 140px;
+	min-height: 70px;
+	float:right;
+}
+.clearfix::after{
+	content: "";
+	display:table;
+	clear:20px;
+}
+.index-logo{
+	height: 204px;
+	width: 368px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.features-item{
+	min-height: 175px;
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+.features-item:last-child{
+	margin-right: 0;
+}
+.features{
+	margin-bottom: 80px;
+}
+.index-content{
+	padding: 50px 80px;
+	margin-bottom: 35px;
+}
+.index-content-left{
+	min-height: 330px;
+	width: 380px;
+	float: left;
+
+	min-height: 330px;
+}
+.index-content-right{
+	min-height: 330px;
+	width: 300px;
+	float: right;
+
+	min-height: 330px;
+}
+.main-footer{
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.footer-contacts{
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+
+	min-height: 90px;
+}
+.footer-copyright{
+	float: right;
+	width: 180px;
+
+	min-height: 90px;
+}
+.footer-social{
+	float: right;
+	width: 180px;
+
+	min-height: 90px;	
+}
